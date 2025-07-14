@@ -1,0 +1,67 @@
+:root {
+  /* =====================================
+     PRIMARY COLORS (For CTAs, highlights, selected states)
+     ===================================== */
+  --primary-400: #01DB87; /* main CTA buttons, active states */
+  --primary-300: #39E6A0; /* hover, secondary emphasis */
+  --primary-200: #6FEFBA; /* lighter CTA background */
+  --primary-100: #A6F9D4; /* subtle highlights */
+
+  /* =====================================
+     ACCENT COLORS (Borders, labels, secondary highlights)
+     ===================================== */
+  --accent-400: #797DFB; /* used in hover states, emphasis */
+  --accent-300: #9497FC;
+  --accent-200: #B0B3FD;
+  --accent-100: #CBCEFE;
+
+  /* =====================================
+     SECONDARY COLORS (Onboarding, attention-grabbing highlights)
+     ===================================== */
+  --secondary-400: #DAFE7A; /* subtle attention, labels */
+  --secondary-300: #E1FF94;
+  --secondary-200: #EBFFA9;
+  --secondary-100: #F0FFBF;
+
+  /* =====================================
+     ⚪️ NEUTRAL COLORS (Typography, backgrounds, layout structure)
+     ===================================== */
+  --neutral-900: #0B2E34; /* Text on light backgrounds */
+  --neutral-800: #1D3D42;
+  --neutral-700: #2F4C51;
+  --neutral-600: #3F5B5F;
+  --neutral-400: #7B8E91; /* Border color / placeholder text */
+  --neutral-300: #B3C4C6; /* Card background / subtle UI elements */
+  --neutral-200: #DBE1E2; /* UI background */
+  --neutral-50: #F9FCFC;  /* Main app background (not pure white) */
+
+  /* =====================================
+     STATUS COLORS: Success
+     ===================================== */
+  --success-400: #01DB87; /* Success – positive action, validation */
+  --success-300: #39E6A0;
+  --success-200: #6FEFBA;
+  --success-100: #A6F9D4;
+
+  /* =====================================
+     STATUS COLORS: Warning
+     ===================================== */
+  --warning-400: #FFFB78; /* caution or important notice */
+  --warning-300: #FFFDA0;
+  --warning-200: #FFFEC2;
+  --warning-100: #FFFFE1;
+
+  /* =====================================
+     STATUS COLORS: Error
+     ===================================== */
+  --error-400: #FF6B6B; /* form errors, destructive actions */
+  --error-300: #FF7878;
+  --error-200: #FFA3A3;
+  --error-100: #FFD3D3;
+
+  /* =====================================
+     GRADIENTS (Decorative, backgrounds, hero sections)
+     ===================================== */
+  --gradient-grape-sunset: linear-gradient(135deg, #783197, #EFAF67); 
+  --gradient-rose-fusion: linear-gradient(135deg, #783197, #90C47F); 
+}
