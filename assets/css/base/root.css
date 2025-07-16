@@ -1,67 +1,91 @@
 :root {
-  /* =====================================
-     PRIMARY COLORS (For CTAs, highlights, selected states)
-     ===================================== */
-  --primary-400: #01DB87; /* main CTA buttons, active states */
-  --primary-300: #39E6A0; /* hover, secondary emphasis */
-  --primary-200: #6FEFBA; /* lighter CTA background */
-  --primary-100: #A6F9D4; /* subtle highlights */
+  /* ============================================
+     PRIMARY PURPLE (Main CTA / Brand Identity)
+     ============================================ */
+  --primary-purple-400: #7360F9; /* Primary buttons, active states, icons */
+  --primary-purple-300: #8A75FA; /* Button hover state or links */
+  --primary-purple-200: #A18AFB; /* Selected background, subtle fills */
+  --primary-purple-100: #BC9BF3; /* Soft background or tag fill */
 
-  /* =====================================
-     ACCENT COLORS (Borders, labels, secondary highlights)
-     ===================================== */
-  --accent-400: #797DFB; /* used in hover states, emphasis */
-  --accent-300: #9497FC;
-  --accent-200: #B0B3FD;
-  --accent-100: #CBCEFE;
+  /* ============================================
+     LAVENDER ACCENT (UI backgrounds / overlays)
+     ============================================ */
+  --accent-lavender-400: #BC9BF3; /* Background cards, hover surfaces */
+  --accent-lavender-300: #C9B3F6; /* Light panels or inputs */
+  --accent-lavender-200: #D7CBF9; /* Tags, subtle containers */
+  --accent-lavender-100: #E6E1FC; /* Backgrounds for sections */
 
-  /* =====================================
-     SECONDARY COLORS (Onboarding, attention-grabbing highlights)
-     ===================================== */
-  --secondary-400: #DAFE7A; /* subtle attention, labels */
-  --secondary-300: #E1FF94;
-  --secondary-200: #EBFFA9;
-  --secondary-100: #F0FFBF;
+  /* ============================================
+     SECONDARY LIME (Accent buttons / success cues)
+     ============================================ */
+  --secondary-lime-400: #B9D440; /* Accent buttons, onboarding highlights */
+  --secondary-lime-300: #CBE057; /* Hover states or icons */
+  --secondary-lime-200: #DDEC7B; /* Card backgrounds or alert banners */
+  --secondary-lime-100: #EEF8A6; /* Soft backgrounds or labels */
 
-  /* =====================================
-     ⚪️ NEUTRAL COLORS (Typography, backgrounds, layout structure)
-     ===================================== */
-  --neutral-900: #0B2E34; /* Text on light backgrounds */
-  --neutral-800: #1D3D42;
-  --neutral-700: #2F4C51;
-  --neutral-600: #3F5B5F;
-  --neutral-400: #7B8E91; /* Border color / placeholder text */
-  --neutral-300: #B3C4C6; /* Card background / subtle UI elements */
-  --neutral-200: #DBE1E2; /* UI background */
-  --neutral-50: #F9FCFC;  /* Main app background (not pure white) */
+  /* ============================================
+     NEUTRAL OFF-WHITE (Base background color)
+     ============================================ */
+  --neutral-light-400: #FFF1EB; /* Main page background */
+  --neutral-light-300: #FFF6F1; /* Cards or subtle UI sections */
+  --neutral-light-200: #FFF9F5; /* Form backgrounds or hover states */
+  --neutral-light-100: #FFFBFA; /* Lightest background layer */
 
-  /* =====================================
-     STATUS COLORS: Success
-     ===================================== */
-  --success-400: #01DB87; /* Success – positive action, validation */
-  --success-300: #39E6A0;
-  --success-200: #6FEFBA;
-  --success-100: #A6F9D4;
+  /* ============================================
+     SUPPORT COLORS (Text / Pure White)
+     ============================================ */
+  --text-dark: #1A1A1A; /* Main text on light backgrounds */
+  --white: #FFFFFF;
 
-  /* =====================================
-     STATUS COLORS: Warning
-     ===================================== */
-  --warning-400: #FFFB78; /* caution or important notice */
-  --warning-300: #FFFDA0;
-  --warning-200: #FFFEC2;
-  --warning-100: #FFFFE1;
+/* ============================================
+     TYPOGRAPHY
+     ============================================ */
 
-  /* =====================================
-     STATUS COLORS: Error
-     ===================================== */
-  --error-400: #FF6B6B; /* form errors, destructive actions */
-  --error-300: #FF7878;
-  --error-200: #FFA3A3;
-  --error-100: #FFD3D3;
+  /* Font families */
+  --font-heading: "Epilogue", sans-serif;
+  --font-body: "Urbanist", sans-serif;
 
-  /* =====================================
-     GRADIENTS (Decorative, backgrounds, hero sections)
-     ===================================== */
-  --gradient-grape-sunset: linear-gradient(135deg, #783197, #EFAF67); 
-  --gradient-rose-fusion: linear-gradient(135deg, #783197, #90C47F); 
+  /* Font sizes */
+  --font-size-xs: 10px;
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 21px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 38px;
+
+  /* Line heights */
+  --line-height-tightest: 1em;
+  --line-height-tight: 1.4em;
+  --line-height-normal: 1.6em;
+  --line-height-loose: 2em;
+
+  /* ============================================
+     SPACING SYSTEM
+     ============================================ */
+
+  --space-xxs: 0.1rem;
+  --space-xs: 0.3rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 8rem;
+  --space-4xl: 10rem;
+  --space-5xl: 12rem;
+  --space-6xl: 16rem;
+
+  /* ============================================
+     BORDERS & RADIUS
+     ============================================ */
+
+  --border-thin: 1px;
+  --border-medium: 2px;
+  --border-thick: 3px;
+
+  --radius-xs: 2px;
+  --radius-sm: 3px;
+  --radius-md: 5px;
+  --radius-xl: 30px;
 }

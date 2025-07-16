@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns:
+    [full-start] minmax(16px, 1fr)
+    [main-start] minmax(0, 1200px)
+    [main-end] minmax(16px, 1fr)
+    [full-end];
+    
+    background-color: var(--neutral-light-400);
+    color: var(--text-dark);
+    font-family: var(--font-body);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+    min-height: 100vh;
+}
+
+body > * {
+    grid-column: full;
+}
+body > main {
+    grid-column: main;
+}

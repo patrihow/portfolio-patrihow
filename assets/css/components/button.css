@@ -1,0 +1,36 @@
+/* Base button styles */
+.button {
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: var(--radius-xl);
+    color: var(--white);
+    text-align: center;
+    border: none;
+    font-family: var(--font-content);
+    width: fit-content;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 300ms ease, background-color 300ms ease;
+}
+
+/* Primary button styles */
+.button--primary {
+    background-color: var(--primary-purple-400);
+}
+
+.button--primary:hover {
+    background-color: var(--primary-purple-100);
+    color: var(--primary-purple-400);
+}
+
+/* Secondary button styles */
+.button--secondary {
+    border: 1px solid var(--primary-purple-400);
+    background-color: var(--accent-lavender-100);
+    color: var(--primary-purple-400);
+}
+
+.button--secondary:hover {
+    background-color: var(--accent-lavender-200);
+}
