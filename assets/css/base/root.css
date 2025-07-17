@@ -2,48 +2,48 @@
   /* ============================================
      PRIMARY PURPLE (Main CTA / Brand Identity)
      ============================================ */
-  --primary-purple-400: #7360F9; /* Primary buttons, active states, icons */
-  --primary-purple-300: #8A75FA; /* Button hover state or links */
-  --primary-purple-200: #A18AFB; /* Selected background, subtle fills */
-  --primary-purple-100: #BC9BF3; /* Soft background or tag fill */
+  --primary-purple-400: #7360f9; /* Primary buttons, active states, icons */
+  --primary-purple-300: #8a75fa; /* Button hover state or links */
+  --primary-purple-200: #a18afb; /* Selected background, subtle fills */
+  --primary-purple-100: #bc9bf3; /* Soft background or tag fill */
 
   /* ============================================
      LAVENDER ACCENT (UI backgrounds / overlays)
      ============================================ */
-  --accent-lavender-400: #BC9BF3; /* Background cards, hover surfaces */
-  --accent-lavender-300: #C9B3F6; /* Light panels or inputs */
-  --accent-lavender-200: #D7CBF9; /* Tags, subtle containers */
-  --accent-lavender-100: #E6E1FC; /* Backgrounds for sections */
+  --accent-lavender-400: #bc9bf3; /* Background cards, hover surfaces */
+  --accent-lavender-300: #c9b3f6; /* Light panels or inputs */
+  --accent-lavender-200: #d7cbf9; /* Tags, subtle containers */
+  --accent-lavender-100: #e6e1fc; /* Backgrounds for sections */
 
   /* ============================================
      SECONDARY LIME (Accent buttons / success cues)
      ============================================ */
-  --secondary-lime-400: #B9D440; /* Accent buttons, onboarding highlights */
-  --secondary-lime-300: #CBE057; /* Hover states or icons */
-  --secondary-lime-200: #DDEC7B; /* Card backgrounds or alert banners */
-  --secondary-lime-100: #EEF8A6; /* Soft backgrounds or labels */
+  --secondary-lime-400: #b9d440; /* Accent buttons, onboarding highlights */
+  --secondary-lime-300: #cbe057; /* Hover states or icons */
+  --secondary-lime-200: #ddec7b; /* Card backgrounds or alert banners */
+  --secondary-lime-100: #eef8a6; /* Soft backgrounds or labels */
 
   /* ============================================
      NEUTRAL OFF-WHITE (Base background color)
      ============================================ */
-  --neutral-light-400: #FFF1EB; /* Main page background */
-  --neutral-light-300: #FFF6F1; /* Cards or subtle UI sections */
-  --neutral-light-200: #FFF9F5; /* Form backgrounds or hover states */
-  --neutral-light-100: #FFFBFA; /* Lightest background layer */
+  --neutral-light-400: #fff1eb; /* Main page background */
+  --neutral-light-300: #fff6f1; /* Cards or subtle UI sections */
+  --neutral-light-200: #fff9f5; /* Form backgrounds or hover states */
+  --neutral-light-100: #fffbfa; /* Lightest background layer */
 
   /* ============================================
      SUPPORT COLORS (Text / Pure White)
      ============================================ */
-  --text-dark: #1A1A1A; /* Main text on light backgrounds */
-  --white: #FFFFFF;
+  --text-dark: #1a1a1a; /* Main text on light backgrounds */
+  --white: #ffffff;
 
-/* ============================================
+  /* ============================================
      TYPOGRAPHY
      ============================================ */
 
   /* Font families */
-  --font-heading: "Epilogue", sans-serif;
-  --font-body: "Urbanist", sans-serif;
+  --font-global: "Public Sans", sans-serif;
+  --font-heading: "Reddit Sans", sans-serif;
 
   /* Font sizes */
   --font-size-xs: 10px;
@@ -59,6 +59,13 @@
   --line-height-tight: 1.4em;
   --line-height-normal: 1.6em;
   --line-height-loose: 2em;
+
+  --heading-h1: bold 56px/66px var(--font-heading);
+  --heading-h2: bold 36px/46px var(--font-heading);
+  --heading-h3: bold 24px/34px var(--font-heading);
+  --heading-h4: bold 22px/28px var(--font-heading);
+  --heading-h5: bold 18px/24px var(--font-heading);
+  --heading-h6: bold 16px/22px var(--font-heading);
 
   /* ============================================
      SPACING SYSTEM

@@ -1,6 +1,10 @@
 /* base */
 @import "base/root.css";
+@import "base/global.css";
 /* layouts */
+@import "layouts/header.css";
+@import "layouts/footer.css";
 @import "layouts/body.css";
 /* components */
+@import "components/navbar.css";
 @import "components/button.css";

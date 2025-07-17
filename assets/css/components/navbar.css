@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-md) 0;
+}
+.navbar .left {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-lg);
+    color: var(--text-dark);
+}
+.navbar .right {
+    display: flex;
+    gap: var(--space-md);
+}
+.navbar .right a {
+    color: var(--text-dark);
+    padding: var(--space-xs);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.navbar .right a:hover {
+    text-decoration: underline;
+    color: var(--primary-purple-400);
+    transform: scale(1.05);
+}

@@ -7,9 +7,9 @@ body {
     [main-end] minmax(16px, 1fr)
     [full-end];
     
-    background-color: var(--neutral-light-400);
+    background-color: var(--neutral-light-100);
     color: var(--text-dark);
-    font-family: var(--font-body);
+    font-family: var(--font-global);
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);
     min-height: 100vh;
@@ -20,4 +20,11 @@ body > * {
 }
 body > main {
     grid-column: main;
+}
+body > header {
+    grid-column: header;
+    padding: var(--space-md) 0;
+}
+body > footer {
+    grid-column: footer;
 }
