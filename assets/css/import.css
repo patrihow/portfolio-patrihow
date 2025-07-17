@@ -1,6 +1,7 @@
 /* base */
 @import "base/root.css";
 @import "base/global.css";
+@import "base/subtitle.css";
 /* layouts */
 @import "layouts/header.css";
 @import "layouts/footer.css";

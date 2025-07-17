@@ -2,10 +2,12 @@
   /* ============================================
      PRIMARY PURPLE (Main CTA / Brand Identity)
      ============================================ */
-  --primary-purple-400: #7360f9; /* Primary buttons, active states, icons */
-  --primary-purple-300: #8a75fa; /* Button hover state or links */
-  --primary-purple-200: #a18afb; /* Selected background, subtle fills */
-  --primary-purple-100: #bc9bf3; /* Soft background or tag fill */
+
+  --primary-purple-500: #5f4df2; /* Main brand color, primary buttons */
+  --primary-purple-400: #7360f9; /* Button hover state or links */
+  --primary-purple-300: #8a75fa; /* Lighter button states, secondary actions */
+  --primary-purple-200: #a18afb; /* Backgrounds for cards or sections */
+  --primary-purple-100: #bc9bf3; /* Lightest background, subtle accents */
 
   /* ============================================
      LAVENDER ACCENT (UI backgrounds / overlays)
@@ -35,6 +37,7 @@
      SUPPORT COLORS (Text / Pure White)
      ============================================ */
   --text-dark: #1a1a1a; /* Main text on light backgrounds */
+  --primary-accent: #0a2540; /* Primary accent color for links hover */
   --white: #ffffff;
 
   /* ============================================

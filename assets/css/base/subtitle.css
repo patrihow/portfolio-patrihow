@@ -1,0 +1,7 @@
+.subtitle {
+    color: var(--primary-purple-500);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    font-size: var(--heading-h6);
+    text-transform: uppercase;
+}

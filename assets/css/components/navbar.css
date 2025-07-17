@@ -15,10 +15,10 @@
 .navbar .right a {
     color: var(--text-dark);
     padding: var(--space-xs);
-    transition: color 0.3s ease, transform 0.3s ease;
+    transition: color 0.25s ease;
 }
 .navbar .right a:hover {
     text-decoration: underline;
-    color: var(--primary-purple-400);
-    transform: scale(1.05);
+    color: var(--primary-purple-500);
+    
 }

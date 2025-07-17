@@ -10,7 +10,12 @@ img {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--primary-purple-500);
+    font-weight: 600;
+    transition: color 0.25s ease;
+}
+a:hover {
+    color: var(--primary-accent);
 }
 
 ul {
@@ -64,6 +69,7 @@ span {
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);
 }
+
 /* ============================================
      UTILITY CLASSES
  ============================================ */
