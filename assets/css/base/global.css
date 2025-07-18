@@ -61,12 +61,14 @@ h6 {
     line-height: var(--line-height-tight);
     font: var(--heading-h6);
 }
-
+p {
+    margin-bottom: var(--space-md);
+}
 p,
 a,
 span {
     font-family: var(--font-content);
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-lg);
     line-height: var(--line-height-normal);
 }
 

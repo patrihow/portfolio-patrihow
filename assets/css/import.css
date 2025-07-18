@@ -9,3 +9,5 @@
 /* components */
 @import "components/navbar.css";
 @import "components/button.css";
+@import "components/secondary-text.css";
+@import "components/subtitle.css";

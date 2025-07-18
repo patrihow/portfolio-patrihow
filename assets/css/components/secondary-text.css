@@ -1,0 +1,6 @@
+.secondary-text {
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-tight);
+    color: var(--neutral-dark-300);
+    letter-spacing: 0.25px;
+}

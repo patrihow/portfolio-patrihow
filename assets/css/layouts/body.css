@@ -7,8 +7,8 @@ body {
     [main-end] minmax(16px, 1fr)
     [full-end];
     
-    background-color: var(--neutral-light-100);
-    color: var(--text-dark);
+    background-color: var(--accent-lavender-100);
+    color: var(--primary-accent);
     font-family: var(--font-global);
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);

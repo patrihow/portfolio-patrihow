@@ -24,6 +24,7 @@
   --secondary-lime-300: #cbe057; /* Hover states or icons */
   --secondary-lime-200: #ddec7b; /* Card backgrounds or alert banners */
   --secondary-lime-100: #eef8a6; /* Soft backgrounds or labels */
+   --secondary-lime-50: #f6fcd9; /* Lightest background, subtle highlights */
 
   /* ============================================
      NEUTRAL OFF-WHITE (Base background color)
@@ -33,6 +34,14 @@
   --neutral-light-200: #fff9f5; /* Form backgrounds or hover states */
   --neutral-light-100: #fffbfa; /* Lightest background layer */
 
+   /* ============================================
+       NEUTRAL DARK (Text / UI elements)
+       ============================================ */
+   --neutral-dark-400: #1d2b3a; /* Main text color */
+   --neutral-dark-300: #2a3b4c; /* Secondary text, less emphasis */
+   --neutral-dark-200: #374c5e; /* Tertiary text, muted elements */
+   --neutral-dark-100: #455e70; /* subtle accents */
+   --neutral-dark-50: #526f82; /* Soft borders, Borders, dividers */
   /* ============================================
      SUPPORT COLORS (Text / Pure White)
      ============================================ */
@@ -49,13 +58,15 @@
   --font-heading: "Reddit Sans", sans-serif;
 
   /* Font sizes */
-  --font-size-xs: 10px;
-  --font-size-sm: 12px;
-  --font-size-md: 14px;
-  --font-size-base: 16px;
-  --font-size-lg: 21px;
-  --font-size-xl: 32px;
-  --font-size-xxl: 38px;
+  --font-size-xs: 0.625rem;   /* 10px */
+  --font-size-sm: 0.75rem;    /* 12px */
+  --font-size-md: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-xxl: 1.5rem;    /* 24px */
+  --font-size-xxxl: 2rem;     /* 32px */
+  --font-size-xxxxl: 2.375rem;/* 38px */
 
   /* Line heights */
   --line-height-tightest: 1em;
@@ -69,6 +80,8 @@
   --heading-h4: bold 22px/28px var(--font-heading);
   --heading-h5: bold 18px/24px var(--font-heading);
   --heading-h6: bold 16px/22px var(--font-heading);
+
+
 
   /* ============================================
      SPACING SYSTEM
