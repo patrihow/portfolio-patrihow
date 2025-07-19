@@ -11,3 +11,6 @@
 @import "components/button.css";
 @import "components/secondary-text.css";
 @import "components/subtitle.css";
+
+@import "components/hero.css";
+@import "components/two-columns.css";
