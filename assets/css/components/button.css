@@ -1,6 +1,5 @@
 /* Base button styles */
 .button {
-    padding: 10px 20px;
     display: inline-block;
     border-radius: var(--radius-xl);
     color: var(--white);
@@ -18,6 +17,7 @@
 
 /* Primary button styles */
 .button--primary {
+        padding: 10px 20px;
     background-color: var(--primary-purple-400);
 }
 
@@ -28,6 +28,7 @@
 
 /* Secondary button styles */
 .button--secondary {
+        padding: 10px 20px;
     border: 2px solid var(--primary-purple-400);
     background-color: var(--accent-lavender-100);
     color: var(--primary-purple-500);

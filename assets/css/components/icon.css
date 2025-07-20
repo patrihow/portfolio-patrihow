@@ -1,0 +1,8 @@
+.icon-lg {
+    font-size: var(--font-size-lg); 
+    color: var(--primary-purple-500); 
+    transition: color 0.25s ease; 
+}
+.icon:hover {
+    color: var(--primary-purple-300); 
+}
