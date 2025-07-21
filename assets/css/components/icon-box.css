@@ -1,0 +1,20 @@
+.icon-box {
+    display: flex;
+    align-items: center; 
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--accent-lavender-200);
+
+}
+.icon-box i {
+font-size: 2rem; 
+    width: 2rem; 
+    height: 2rem; 
+    color: var(--primary-purple-200);
+    background-color: var(--white); 
+    border-radius: var(--radius-md); 
+    padding: var(--space-md); 
+    margin-right: var(--space-md); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}

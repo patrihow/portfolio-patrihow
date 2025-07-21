@@ -22,7 +22,6 @@
 
 .project-card img {
     max-width: 100%; 
-    background-color: var(--secondary-lime-50);
     border-top-left-radius: var(--radius-md-2);
     border-top-right-radius: var(--radius-md-2);
 }

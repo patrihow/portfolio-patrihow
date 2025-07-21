@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    align-items: center;
+    padding: var(--space-md) var(--space-lg);
+    background-color: var( --neutral-light-100);
+    color: var(--color-footer-text);
+    font-size: var(--font-size-sm);
+    border-radius: var(--radius-xl);
+    justify-content: space-between;
+    margin-bottom: var(--space-lg);
+}
+
+footer .fas.fa-heart {
+    color: var(--primary-purple-200); 
+    margin: 0 3px;
+    animation: heartbeat 1.5s ease infinite; 
+}
+
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}

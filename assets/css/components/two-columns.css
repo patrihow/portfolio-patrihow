@@ -3,12 +3,13 @@
   grid-template-columns: 1fr 1fr;
   gap: var(--space-lg);
   box-sizing: border-box;
-  flex-direction: row;
-  justify-content: center;
 }
 .two-columns > .col-left,
 .two-columns > .col-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.two-columns img {
+  border-radius: var(--radius-md-2);
 }
