@@ -85,6 +85,7 @@ section + section {
 .bg-lime-100 { background: var(--secondary-lime-100) }
 
 .bg-purple-100 { background: var( --primary-purple-100) }
+.bg-purple-200 { background: var( --primary-purple-200) }
 
 .color-lime-400 { color: var(--color-lime-400) }
 

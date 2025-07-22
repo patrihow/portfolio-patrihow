@@ -7,7 +7,7 @@ footer {
     font-size: var(--font-size-sm);
     border-radius: var(--radius-xl);
     justify-content: space-between;
-    margin-bottom: var(--space-lg);
+    margin: var(--space-lg) 0 var(--space-lg) 0;
 }
 
 footer .fas.fa-heart {

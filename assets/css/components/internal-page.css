@@ -1,0 +1,9 @@
+.internal-page{
+    padding: var(--space-xl) 0 var(--space-xl) 0;
+}
+.internal-page h1 {
+    margin-bottom: var(--space-md);
+}
+.internal-page .subtitle {
+    margin-bottom: var(--space-lg);
+}
