@@ -1,0 +1,41 @@
+.guide-styles {
+    padding: var(--space-md) 0;
+}
+.color-sample {
+  width: 140px;
+  height: 60px;
+  color: #1a1a1a;
+  font-size: var(--font-size-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: var(--space-xs);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6,
+.typography p {
+  margin-bottom: var(--space-sm);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  align-items: center;
+  margin-top: var(--space-sm);
+}

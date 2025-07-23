@@ -79,48 +79,39 @@ section + section {
     margin-top: calc(var(--space-lg) * 1.5); /* 3rem between sections */
 }
 /* ============================================
-     COLOR UTILITIES
+   COLOR UTILITIES
 ============================================ */
-.bg-lime-50 { background: var(--secondary-lime-50) }
-.bg-lime-100 { background: var(--secondary-lime-100) }
 
-.bg-purple-100 { background: var( --primary-purple-100) }
-.bg-purple-200 { background: var( --primary-purple-200) }
+/* PURPLE */
+.bg-purple-500 { background-color: var(--primary-purple-500); }
+.bg-purple-400 { background-color: var(--primary-purple-400); }
+.bg-purple-300 { background-color: var(--primary-purple-300); }
+.bg-purple-200 { background-color: var(--primary-purple-200); }
+.bg-purple-100 { background-color: var(--primary-purple-100); }
 
-.color-lime-400 { color: var(--color-lime-400) }
+/* LAVENDER */
+.bg-lavender-400 { background-color: var(--accent-lavender-400); }
+.bg-lavender-300 { background-color: var(--accent-lavender-300); }
+.bg-lavender-200 { background-color: var(--accent-lavender-200); }
+.bg-lavender-100 { background-color: var(--accent-lavender-100); }
 
-/* ============================================
-     UTILITY CLASSES
- ============================================ */
+/* LIME */
+.bg-lime-400 { background-color: var(--secondary-lime-400); }
+.bg-lime-300 { background-color: var(--secondary-lime-300); }
+.bg-lime-200 { background-color: var(--secondary-lime-200); }
+.bg-lime-100 { background-color: var(--secondary-lime-100); }
+.bg-lime-50  { background-color: var(--secondary-lime-50); }
 
-.flex-column {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
+/* NEUTRAL LIGHT */
+.bg-neutral-400 { background-color: var(--neutral-light-400); }
+.bg-neutral-300 { background-color: var(--neutral-light-300); }
+.bg-neutral-200 { background-color: var(--neutral-light-200); }
+.bg-neutral-100 { background-color: var(--neutral-light-100); }
 
-.flex-row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+/* NEUTRAL DARK */
+.bg-dark-400 { background-color: var(--neutral-dark-400); }
+.bg-dark-300 { background-color: var(--neutral-dark-300); }
+.bg-dark-200 { background-color: var(--neutral-dark-200); }
+.bg-dark-100 { background-color: var(--neutral-dark-100); }
+.bg-dark-50  { background-color: var(--neutral-dark-50); }
 
-.justify-left {
-    justify-content: start;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.justify-right {
-    justify-content: end;
-}
-
-.justify-spacebetween {
-    justify-content: space-between;
-}
-
-.text-align-center {
-    text-align: center;
-}

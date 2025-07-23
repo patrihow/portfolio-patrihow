@@ -1,6 +1,10 @@
 footer {
-    display: flex;
+    display: grid;
+    grid-column: full;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     align-items: center;
+    text-align: center;
     padding: var(--space-md) var(--space-lg);
     background-color: var( --neutral-light-100);
     color: var(--color-footer-text);

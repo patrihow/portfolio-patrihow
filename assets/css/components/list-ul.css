@@ -1,0 +1,19 @@
+.list-ul {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: var(--space-lg); 
+}
+
+.list-ul li {
+    display: flex; 
+    flex-direction: column;
+    align-items:flex-start; 
+    padding: var(--space-md); 
+    border-bottom: 1px solid var(--accent-lavender-200); 
+}
+
+.icon {
+    font-size: 1rem; 
+    color: var(--primary-purple-500); 
+    margin-bottom: var(--space-sm); 
+}

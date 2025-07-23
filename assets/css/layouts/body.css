@@ -26,6 +26,4 @@ body > header {
     grid-column: header;
     padding: var(--space-md) 0;
 }
-body > footer {
-    grid-column: full;
-}
+
